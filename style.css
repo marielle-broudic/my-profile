@@ -1,0 +1,128 @@
+
+/*Colors and font*/
+body{
+	background: rgb(230,230,230);
+	color: rgb(50,50,50);
+	font-family: Times;
+	font-size: 17px;
+}
+
+h1 {
+	color: blueviolet;
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-size: 32px;
+}
+
+h2 {
+	color: rgb(100,100,100);
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+h1,h2,h3{
+font-family: Times;
+}
+
+a{
+	text-decoration: none;
+	color: blueviolet;
+}
+
+a:hover {
+	color: mintcream;
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  .card-white{
+	text-align: center;
+	border-radius: 7px;
+	box-shadow: rgba(0, 0, 0, 0.1);
+	text-align: center;
+  	background: beige;
+  	padding: 10px;
+  	border: 2px solid grey;
+	}
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .card-white{
+	text-align: center;
+	border-radius: 7px;
+	box-shadow: rgba(0, 0, 0, 0.1);
+	text-align: center;
+  	background: beige;
+  	padding: 10px;
+  	border: 2px solid grey;
+	}
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .card-white{
+	text-align: center;
+	border-radius: 7px;
+	box-shadow: rgba(0, 0, 0, 0.1);
+	text-align: center;
+  	background: beige;
+  	padding: 10px;
+  	border: 2px solid grey;
+	}
+}
+
+.container {
+	width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+
+
+.listes{
+	text-decoration: none;
+}
+
+.card-white{
+	text-align: center;
+	border-radius: 7px;
+	box-shadow: rgba(0, 0, 0, 0.1);
+	text-align: center;
+  	background: beige;
+  	padding: 10px;
+  	border: 2px solid grey;
+}
+.button {
+	 border: 40;
+    line-height: 2.5;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+#Photo {
+	border-radius: 100%;
+	box-shadow: 5px 5px 3px black;
+}
+
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
