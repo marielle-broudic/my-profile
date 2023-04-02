@@ -30,14 +30,7 @@ a{
 }
 
 a:hover {
-	color: mintcream;
-
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
-  }
-}
+	color: mintcream;}
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
@@ -46,6 +39,8 @@ a:hover {
   }
   .card-white{
 	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
 	border-radius: 7px;
 	box-shadow: rgba(0, 0, 0, 0.1);
 	text-align: center;
